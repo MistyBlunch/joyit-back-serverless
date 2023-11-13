@@ -14,7 +14,7 @@
 
 #### [POST] /dev/tokens
 ##### Input
-´´´JSON
+```JSON
 {
 	"email": "gian.corzo@gmail.com", 
 	"card_number": "4111111111111111",
@@ -22,17 +22,17 @@
 	"expiration_year": "2028", 
 	"expiration_month": "09"
 }
-´´´
+```
 ##### Output
-´´´
+```
 {
 	"token": "ND486o4U9k3wH4O7"
 }
-´´´
+```
 
 #### [GET] /dev/tokens/{token}
 ##### Output
-´´´
+```
 {
 	"email": "gian.corzo@gmail.com",
 	"card_number": "4111111111111111",
@@ -40,4 +40,4 @@
 	"expiration_year": "2028",
 	"expiration_month": "09"
 }
-´´´
+```
