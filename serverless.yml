@@ -1,0 +1,32 @@
+service: joyit
+app: joyit
+org: mistyblunch
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+
+functions:  
+  createToken:
+    handler: handler.createToken
+    events:
+      - http:
+          method: POST
+          path: /tokens
+  
+  findByToken:
+    handler: handler.findByToken
+    events:
+      - http:
+          method: GET
+          path: /tokens/{token}
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
+custom:
+  serverlessPluginTypescript:
+    tsConfigFileLocation: './tsconfig.json'
