@@ -6,9 +6,9 @@
 - Redis
 
 ### Steps to execute and test the software
-1. It is necessary to have the dependencies installed to be able to start. The first thing to do is to enter the project and execute 'yarn' to install all the modules required by the project.
-2. To run the project for a local test you can run the command 'yarn run start', this will deploy a server on port 3000 to perform the respective tests of the project.
-3. To run the project tests, run the following command 'yarn run test'.
+1. It is necessary to have the dependencies installed to be able to start. The first thing to do is to enter the project and execute `yarn` to install all the modules required by the project.
+2. To run the project for a local test you can run the command `yarn run start`, this will deploy a server on port 3000 to perform the respective tests of the project.
+3. To run the project tests, run the following command `yarn run test`.
 
 ### Endpoints
 
