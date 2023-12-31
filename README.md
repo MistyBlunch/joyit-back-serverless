@@ -41,3 +41,8 @@
 	"expiration_month": "09"
 }
 ```
+![Screenshot 2023-12-31 041625](https://github.com/MistyBlunch/joyit-back-serverless/assets/29315728/7c8bdf7a-3fd9-4487-81ed-e400b4587889)
+![Screenshot 2023-12-31 041700](https://github.com/MistyBlunch/joyit-back-serverless/assets/29315728/4d353d02-6396-4f57-b10c-63e7a9c53260)
+
+
+
